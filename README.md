@@ -2,16 +2,44 @@
 
 ### Built With React, MongoDB, ExpressJS, NodeJS, JWT, Cloudinary, Socket.io
 
-## Setting .env
+Feature List:
+
+- 🌟 Tech stack: MERN + Socket.io + Chakra UI
+- 🎃 Authentication & Authorization with JWT
+- 📝 Create Post
+- 🗑️ Delete Post
+- ❤️ Like/Unlike Post
+- 💬 Comment to a Post
+- 👥 Follow/Unfollow Users
+- ❄️ Freeze Your Account
+- 🌓 Dark/Light Mode
+- 📱 Completely Responsive
+- 💬 Chat App With Image Support
+- 👀 Seen/Unseen Status for Messages
+- 🔊 Notification sounds
+- ⭐ Deployment for FREE
+
+### Setup .env file
 
 ```js
-PORT=5000
-JWT_SECRET=yoursecretjwt
-MONGO_URI=mongodb+srv://
+PORT=...
+MONGO_URI=...
+JWT_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+```
 
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm start
 ```
 
 # [Tutorial](https://www.youtube.com/watch?v=G4V4xO9wyD8&t=24662s)
